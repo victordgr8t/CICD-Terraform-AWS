@@ -1,4 +1,4 @@
-resource "aws_ssm_parameter" "New secrets" {
+resource "aws_ssm_parameter" "New_Secrets" {
   name        = "New_Secrets"
   description = "This is not really a secret"
   type        = "SecureString"
